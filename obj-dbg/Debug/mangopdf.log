@@ -1,0 +1,28 @@
+﻿生成启动时间为 2014/11/25 17:11:18。
+     1>项目“G:\Project\mangopdf\mangopdf\mangopdf.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“..\obj-dbg\Debug\mangopdf.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"..\obj-dbg\Debug\mangopdf.res" mangopdf.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\obj-dbg\\mangopdf.exe" /NOLOGO /LIBPATH:G:\Qt\Qt5.3.2\5.3\msvc2010_opengl\lib /LIBPATH:"C:\Program Files\Visual Leak Detector\lib\Win32" qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\obj-dbg\Debug\mangopdf.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Project\mangopdf\obj-dbg\mangopdf.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\obj-dbg\mangopdf.lib" /MACHINE:X86 "..\obj-dbg\Debug\mangopdf.res"
+         "..\obj-dbg\Debug\moc_mangopdf.obj"
+         "..\obj-dbg\Debug\qrc_mangopdf.obj"
+         "..\obj-dbg\Debug\main.obj"
+         "..\obj-dbg\Debug\mangopdf.obj"
+         mangopdf.vcxproj -> G:\Project\mangopdf\mangopdf\..\obj-dbg\mangopdf.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\obj-dbg\\mangopdf.exe;#1" /manifest "..\obj-dbg\Debug\mangopdf.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“..\obj-dbg\Debug\mangopdf.unsuccessfulbuild”。
+         正在对“..\obj-dbg\Debug\mangopdf.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Project\mangopdf\mangopdf\mangopdf.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.10

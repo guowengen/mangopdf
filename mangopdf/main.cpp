@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    mangopdf mango;
-    mango.show();
+    mangopdf *mango = new mangopdf();
+    mango->show();
     return app.exec();
 }

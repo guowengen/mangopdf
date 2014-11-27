@@ -1,4 +1,15 @@
 <RCC>
-    <qresource prefix="mangopdf">
+    <qresource prefix="/mangopdf"/>
+    <qresource prefix="/bmp">
+        <file>Resources/app.ico</file>
+    </qresource>
+    <qresource prefix="/menu">
+        <file>Resources/About.ico</file>
+        <file>Resources/Copy.png</file>
+        <file>Resources/Cut.png</file>
+        <file>Resources/Exit.png</file>
+        <file>Resources/Open.png</file>
+        <file>Resources/Paste.png</file>
+        <file>Resources/Save.png</file>
     </qresource>
 </RCC>

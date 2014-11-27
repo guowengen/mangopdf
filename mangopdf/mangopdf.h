@@ -4,16 +4,26 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_mangopdf.h"
 
+#include "WindowInfo.h"
+#include "Menu.h"
+
+class WindowInfo;
+
 class mangopdf : public QMainWindow
 {
-	Q_OBJECT
+    Q_OBJECT
 
 public:
-	mangopdf(QWidget *parent = 0);
-	~mangopdf();
+    mangopdf(QWidget *parent = 0);
+    ~mangopdf();
+private:
+    void WindowInit(WindowInfo *win);
 
 private:
-	Ui::mangopdfClass ui;
+    Ui::mangopdfClass ui;
+
+private:
+    WindowInfo *win;
 };
 
 #endif // MANGOPDF_H

@@ -50,6 +50,18 @@
     <ClCompile Include="GeneratedFiles\qrc_mangopdf.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>mango</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowInfo.cpp">
+      <Filter>mango</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Menu.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Menu.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="mangopdf.ui">
@@ -61,10 +73,28 @@
     <CustomBuild Include="mangopdf.h">
       <Filter>mango</Filter>
     </CustomBuild>
+    <CustomBuild Include="Menu.h">
+      <Filter>mango</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_mangopdf.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MupdfExports.h">
+      <Filter>mango</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowInfo.h">
+      <Filter>mango</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mangopdf.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\win_res.ico" />
   </ItemGroup>
 </Project>

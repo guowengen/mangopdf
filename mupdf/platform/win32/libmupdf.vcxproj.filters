@@ -2,34 +2,34 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="cbz">
-      <UniqueIdentifier>{04dfc7ea-172e-4dea-b96e-1e8eb7a7fc0f}</UniqueIdentifier>
+      <UniqueIdentifier>{ed587ff9-06bd-4b23-9b6d-dd84177fa674}</UniqueIdentifier>
     </Filter>
     <Filter Include="xps">
-      <UniqueIdentifier>{aa202988-fc28-4cbd-b45b-ed9b16c0f1ad}</UniqueIdentifier>
+      <UniqueIdentifier>{b01f5803-7c53-45cf-a9da-51566857e73a}</UniqueIdentifier>
     </Filter>
     <Filter Include="fitz">
-      <UniqueIdentifier>{6b4b3a70-8f73-4ef1-92e8-4a1a1b765c7f}</UniqueIdentifier>
+      <UniqueIdentifier>{25121152-dcbb-44c2-a373-ab5547ccaf60}</UniqueIdentifier>
     </Filter>
     <Filter Include="img">
-      <UniqueIdentifier>{8be069e1-a36b-4efc-877a-f28297a4ecde}</UniqueIdentifier>
+      <UniqueIdentifier>{6cb3ed3f-9317-47d6-92c8-ba233c8b135b}</UniqueIdentifier>
     </Filter>
     <Filter Include="pdf">
-      <UniqueIdentifier>{1a89fc1a-2093-4858-934c-099143a07980}</UniqueIdentifier>
+      <UniqueIdentifier>{bcd1a90f-2494-4bff-93dc-40743e46f982}</UniqueIdentifier>
     </Filter>
     <Filter Include="pdf\js">
-      <UniqueIdentifier>{03f73209-c9d4-49c8-89a3-b49d3aefa5f9}</UniqueIdentifier>
+      <UniqueIdentifier>{c6da9b9b-c24b-43d6-b27a-af1723609285}</UniqueIdentifier>
     </Filter>
     <Filter Include="!include">
-      <UniqueIdentifier>{21272585-ddce-41e2-a743-c5909c7d5a98}</UniqueIdentifier>
+      <UniqueIdentifier>{805d5c96-d362-484c-aa86-3d972df1587a}</UniqueIdentifier>
     </Filter>
     <Filter Include="!include\pdf">
-      <UniqueIdentifier>{70885d3b-cd16-4854-8426-24158cf49ce0}</UniqueIdentifier>
+      <UniqueIdentifier>{918241e0-2374-4ba1-bc89-534ef2878841}</UniqueIdentifier>
     </Filter>
     <Filter Include="!include\fitz">
-      <UniqueIdentifier>{2473a60e-75aa-4768-bc0f-219780227dc9}</UniqueIdentifier>
+      <UniqueIdentifier>{f9c233e2-4649-4faa-bcbd-298ce5e5a074}</UniqueIdentifier>
     </Filter>
     <Filter Include="tiff">
-      <UniqueIdentifier>{a8b60f8e-ac3a-4bfb-bdce-83e954730e84}</UniqueIdentifier>
+      <UniqueIdentifier>{0e046cd8-51b1-4249-b8a6-43160ec568f2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

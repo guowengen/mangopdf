@@ -3,16 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mangopdf", "mangopdf\mangopdf.vcxproj", "{7F04478E-69BD-4897-B23D-0B3FF33613CF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmupdf", "mupdf\platform\win32\libmupdf.vcxproj", "{5F615F91-DFF8-4F05-BF48-6222B7D86519}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		DebugOpenssl|Win32 = DebugOpenssl|Win32
+		Memento|Win32 = Memento|Win32
 		Release|Win32 = Release|Win32
+		ReleaseOpenssl|Win32 = ReleaseOpenssl|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.Debug|Win32.ActiveCfg = Debug|Win32
 		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.Debug|Win32.Build.0 = Debug|Win32
+		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.DebugOpenssl|Win32.ActiveCfg = Debug|Win32
+		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.DebugOpenssl|Win32.Build.0 = Debug|Win32
+		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.Memento|Win32.ActiveCfg = Release|Win32
+		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.Memento|Win32.Build.0 = Release|Win32
 		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.Release|Win32.ActiveCfg = Release|Win32
 		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.Release|Win32.Build.0 = Release|Win32
+		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.ReleaseOpenssl|Win32.ActiveCfg = Release|Win32
+		{7F04478E-69BD-4897-B23D-0B3FF33613CF}.ReleaseOpenssl|Win32.Build.0 = Release|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.Debug|Win32.Build.0 = Debug|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.DebugOpenssl|Win32.ActiveCfg = DebugOpenssl|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.DebugOpenssl|Win32.Build.0 = DebugOpenssl|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.Memento|Win32.ActiveCfg = Memento|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.Memento|Win32.Build.0 = Memento|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.Release|Win32.ActiveCfg = Release|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.Release|Win32.Build.0 = Release|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.ReleaseOpenssl|Win32.ActiveCfg = ReleaseOpenssl|Win32
+		{5F615F91-DFF8-4F05-BF48-6222B7D86519}.ReleaseOpenssl|Win32.Build.0 = ReleaseOpenssl|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

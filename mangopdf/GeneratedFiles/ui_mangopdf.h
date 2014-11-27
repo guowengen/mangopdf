@@ -25,9 +25,9 @@ QT_BEGIN_NAMESPACE
 class Ui_mangopdfClass
 {
 public:
+    QWidget *centralWidget;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
-    QWidget *centralWidget;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *mangopdfClass)
@@ -35,15 +35,19 @@ public:
         if (mangopdfClass->objectName().isEmpty())
             mangopdfClass->setObjectName(QStringLiteral("mangopdfClass"));
         mangopdfClass->resize(600, 400);
-        menuBar = new QMenuBar(mangopdfClass);
-        menuBar->setObjectName(QStringLiteral("menuBar"));
-        mangopdfClass->setMenuBar(menuBar);
-        mainToolBar = new QToolBar(mangopdfClass);
-        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
-        mangopdfClass->addToolBar(mainToolBar);
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/bmp/Resources/app.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        mangopdfClass->setWindowIcon(icon);
         centralWidget = new QWidget(mangopdfClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         mangopdfClass->setCentralWidget(centralWidget);
+        menuBar = new QMenuBar(mangopdfClass);
+        menuBar->setObjectName(QStringLiteral("menuBar"));
+        menuBar->setGeometry(QRect(0, 0, 600, 23));
+        mangopdfClass->setMenuBar(menuBar);
+        mainToolBar = new QToolBar(mangopdfClass);
+        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
+        mangopdfClass->addToolBar(Qt::TopToolBarArea, mainToolBar);
         statusBar = new QStatusBar(mangopdfClass);
         statusBar->setObjectName(QStringLiteral("statusBar"));
         mangopdfClass->setStatusBar(statusBar);
