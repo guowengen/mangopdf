@@ -6,6 +6,7 @@
 
 #include "WindowInfo.h"
 #include "Menu.h"
+#include "MupdfExports.h"
 
 class WindowInfo;
 

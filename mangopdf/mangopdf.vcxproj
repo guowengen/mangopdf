@@ -102,6 +102,7 @@
     <ClCompile Include="mangopdf.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="PdfEngine.cpp" />
+    <ClCompile Include="PixmapDisplay.cpp" />
     <ClCompile Include="WindowInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +145,7 @@
     </CustomBuild>
     <ClInclude Include="MupdfExports.h" />
     <ClInclude Include="PdfEngine.h" />
+    <ClInclude Include="PixmapDisplay.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="WindowInfo.h" />
   </ItemGroup>

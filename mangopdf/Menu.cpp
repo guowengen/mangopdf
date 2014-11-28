@@ -17,7 +17,7 @@ void MMenu::CreateAction()
     //创建打开文件动作
     fileOpenAction = new QAction(QIcon::fromTheme("打开文件", QIcon(":/menu/Resources/Open.png")), QStringLiteral("&打开文件..."), winInfo->mango);
     fileOpenAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_O));  //设置打开文件动作的快捷键
-    fileOpenAction->setStatusTip(QStringLiteral("打开一个文件"));   //设置打开文件动作的提示信息
+    fileOpenAction->setStatusTip(QStringLiteral("打开一个文件"));    //设置打开文件动作的提示信息
     connect(fileOpenAction, SIGNAL(triggered()), this, SLOT(OpenFileSlot()));//关联打开文件动作的信号和槽
     //关闭文件
     fileCloseAction = new QAction(QIcon::fromTheme("关闭文件", QIcon(":/res/Close.png")), QStringLiteral("&关闭文件..."), winInfo->mango);
@@ -33,12 +33,15 @@ void MMenu::CreateAction()
 
 void MMenu::CreateMenu()
 {
-    fileMenu = winInfo->mango->menuBar()->addMenu(QStringLiteral("文件"));
+    fileMenu = winInfo->mango->menuBar()->addMenu(QStringLiteral("文件(F)"));
     fileMenu->addAction(fileOpenAction);
     fileMenu->addAction(fileCloseAction);
     fileMenu->addSeparator();
     fileMenu->addAction(exitAction);
-    editMenu = winInfo->mango->menuBar()->addMenu(QStringLiteral("编辑"));
+    editMenu = winInfo->mango->menuBar()->addMenu(QStringLiteral("编辑(E)"));
+    viewMenu = winInfo->mango->menuBar()->addMenu(QStringLiteral("视图(V)"));
+    modeMenu = winInfo->mango->menuBar()->addMenu(QStringLiteral("模式(M)"));
+    hlpeMenu = winInfo->mango->menuBar()->addMenu(QStringLiteral("帮助(H)"));
 }
 
 void MMenu::OpenFileSlot()

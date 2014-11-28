@@ -71,6 +71,9 @@
     <ClCompile Include="PdfEngine.cpp">
       <Filter>mango\documents</Filter>
     </ClCompile>
+    <ClCompile Include="PixmapDisplay.cpp">
+      <Filter>mango</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="mangopdf.ui">
@@ -104,6 +107,9 @@
     </ClInclude>
     <ClInclude Include="PdfEngine.h">
       <Filter>mango\documents</Filter>
+    </ClInclude>
+    <ClInclude Include="PixmapDisplay.h">
+      <Filter>mango</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

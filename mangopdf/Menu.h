@@ -38,11 +38,15 @@ private:
     void CreateMenu();
 
 private:
-    QAction *fileOpenAction;    //打开文件动作
-    QAction *fileCloseAction;   //关闭文件动作
+    QAction *fileOpenAction;
+    QAction *fileCloseAction;
     QAction *exitAction;
-    QMenu *fileMenu;                //菜单
-    QMenu *editMenu;                //菜单
+
+    QMenu *fileMenu;
+    QMenu *editMenu;
+    QMenu *viewMenu;
+    QMenu *modeMenu;
+    QMenu *hlpeMenu;
 };
 
 #endif

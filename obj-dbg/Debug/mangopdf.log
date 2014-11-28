@@ -1,12 +1,12 @@
-﻿生成启动时间为 2014/11/27 17:40:48。
+﻿生成启动时间为 2014/11/28 14:35:51。
      1>项目“G:\Project\mangopdf\mangopdf\mangopdf.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“..\obj-dbg\Debug\mangopdf.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        CustomBuild:
          所有输出均为最新。
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IG:\Qt\Qt5.3.2\5.3\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IG:\Qt\Qt5.3.2\5.3\msvc2010_opengl\include\QtCore /IG:\Qt\Qt5.3.2\5.3\msvc2010_opengl\include\QtGui /IG:\Qt\Qt5.3.2\5.3\msvc2010_opengl\include\QtWidgets /IG:\Project\mangopdf\\mupdf\include\ /IG:\Project\mangopdf\\mupdf\source\fitz\ /IG:\Project\mangopdf\\mupdf\source\pdf\ /IG:\Project\mangopdf\\mupdf\source\xps\ /IG:\Project\mangopdf\\mupdf\thirdparty\jpeg\ /IG:\Project\mangopdf\\mupdf\thirdparty\zlib\ /IG:\Project\mangopdf\\mupdf\scripts\jpeg\ /IG:\Project\mangopdf\\mupdf\thirdparty\jbig2dec\ /IG:\Project\mangopdf\\mupdf\thirdparty\freetype\include\ /IG:\Project\mangopdf\\mupdf\thirdparty\openjpeg\libopenjpeg\ /IG:\Project\mangopdf\\mupdf\generated\ /IG:\Project\mangopdf\\mupdf\thirdparty\mujs\ /I"C:\Program Files\Visual Leak Detector\include" /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\obj-dbg\Debug\\" /Fd"..\obj-dbg\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PdfEngine.cpp
-         PdfEngine.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IG:\Qt\Qt5.3.2\5.3\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IG:\Qt\Qt5.3.2\5.3\msvc2010_opengl\include\QtCore /IG:\Qt\Qt5.3.2\5.3\msvc2010_opengl\include\QtGui /IG:\Qt\Qt5.3.2\5.3\msvc2010_opengl\include\QtWidgets /IG:\Project\mangopdf\\mupdf\include\ /IG:\Project\mangopdf\\mupdf\source\fitz\ /IG:\Project\mangopdf\\mupdf\source\pdf\ /IG:\Project\mangopdf\\mupdf\source\xps\ /IG:\Project\mangopdf\\mupdf\thirdparty\jpeg\ /IG:\Project\mangopdf\\mupdf\thirdparty\zlib\ /IG:\Project\mangopdf\\mupdf\scripts\jpeg\ /IG:\Project\mangopdf\\mupdf\thirdparty\jbig2dec\ /IG:\Project\mangopdf\\mupdf\thirdparty\freetype\include\ /IG:\Project\mangopdf\\mupdf\thirdparty\openjpeg\libopenjpeg\ /IG:\Project\mangopdf\\mupdf\generated\ /IG:\Project\mangopdf\\mupdf\thirdparty\mujs\ /I"C:\Program Files\Visual Leak Detector\include" /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\obj-dbg\Debug\\" /Fd"..\obj-dbg\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PixmapDisplay.cpp
+         PixmapDisplay.cpp
          所有输出均为最新。
        ResourceCompile:
          所有输出均为最新。
@@ -19,6 +19,7 @@
          "..\obj-dbg\Debug\mangopdf.obj"
          "..\obj-dbg\Debug\Menu.obj"
          "..\obj-dbg\Debug\PdfEngine.obj"
+         "..\obj-dbg\Debug\PixmapDisplay.obj"
          "..\obj-dbg\Debug\WindowInfo.obj"
          LINK : 没有找到 ..\obj-dbg\\mangopdf.exe 或上一个增量链接没有生成它；正在执行完全链接
          mangopdf.vcxproj -> G:\Project\mangopdf\mangopdf\..\obj-dbg\mangopdf.exe
@@ -31,4 +32,4 @@
 
 生成成功。
 
-已用时间 00:00:17.59
+已用时间 00:00:01.27
