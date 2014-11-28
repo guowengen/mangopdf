@@ -33,6 +33,12 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;cxx;c;def</Extensions>
     </Filter>
+    <Filter Include="mango\documents">
+      <UniqueIdentifier>{0e86d37d-0333-411e-9ba1-4cd50753c394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{3449d710-67e7-4df5-bea7-4a7efffa6300}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -62,6 +68,9 @@
     <ClCompile Include="GeneratedFiles\Release\moc_Menu.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="PdfEngine.cpp">
+      <Filter>mango\documents</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="mangopdf.ui">
@@ -89,6 +98,12 @@
     </ClInclude>
     <ClInclude Include="WindowInfo.h">
       <Filter>mango</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>mango\documents</Filter>
+    </ClInclude>
+    <ClInclude Include="PdfEngine.h">
+      <Filter>mango\documents</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

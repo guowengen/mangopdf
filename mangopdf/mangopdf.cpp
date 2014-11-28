@@ -12,6 +12,8 @@ mangopdf::mangopdf(QWidget *parent)
 
 mangopdf::~mangopdf()
 {
+    if(win != nullptr)
+        delete win;
 }
 
 void mangopdf::WindowInit(WindowInfo *win)

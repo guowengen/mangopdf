@@ -4,3 +4,7 @@
 WindowInfo::WindowInfo()
 {
 }
+
+WindowInfo::~WindowInfo()
+{
+}

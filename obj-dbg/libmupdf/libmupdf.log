@@ -1,0 +1,338 @@
+﻿生成启动时间为 2014/11/27 13:44:30。
+     1>项目“G:\Project\mangopdf\mupdf\platform\win32\libmupdf.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“G:\Project\mangopdf\\obj-dbg\libmupdf\libmupdf.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\scripts\freetype /I..\..\scripts\jpeg /I..\..\scripts\openjpeg /I..\..\include /I..\..\ucdn /I..\..\generated /I..\..\thirdparty\jbig2dec /I..\..\thirdparty\jpeg /I..\..\thirdparty\openjpeg\libopenjpeg /I..\..\thirdparty\zlib /I..\..\thirdparty\freetype\include /I..\..\thirdparty\mujs /I"C:\Program Files\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D DEBUG=1 /D USE_OUTPUT_DEBUG_STRING /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"G:\Project\mangopdf\\obj-dbg\libmupdf\\" /Fd"G:\Project\mangopdf\\obj-dbg\libmupdf\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\source\cbz\mucbz.c "..\..\source\xps\xps-common.c" "..\..\source\xps\xps-doc.c" "..\..\source\xps\xps-glyphs.c" "..\..\source\xps\xps-gradient.c" "..\..\source\xps\xps-image.c" "..\..\source\xps\xps-outline.c" "..\..\source\xps\xps-path.c" "..\..\source\xps\xps-resource.c" "..\..\source\xps\xps-tile.c" "..\..\source\xps\xps-util.c" "..\..\source\xps\xps-zip.c" "..\..\source\fitz\bbox-device.c" ..\..\source\fitz\bitmap.c ..\..\source\fitz\buffer.c ..\..\source\fitz\colorspace.c "..\..\source\fitz\compressed-buffer.c" ..\..\source\fitz\context.c "..\..\source\fitz\crypt-aes.c" "..\..\source\fitz\crypt-arc4.c" "..\..\source\fitz\crypt-md5.c" "..\..\source\fitz\crypt-sha2.c" ..\..\source\fitz\device.c "..\..\source\fitz\document-all.c" ..\..\source\fitz\document.c "..\..\source\fitz\draw-affine.c" "..\..\source\fitz\draw-blend.c" "..\..\source\fitz\draw-device.c" "..\..\source\fitz\draw-edge.c" "..\..\source\fitz\draw-glyph.c" "..\..\source\fitz\draw-mesh.c" "..\..\source\fitz\draw-paint.c" "..\..\source\fitz\draw-path.c" "..\..\source\fitz\draw-scale-simple.c" "..\..\source\fitz\draw-unpack.c" ..\..\source\fitz\error.c "..\..\source\fitz\filter-basic.c" "..\..\source\fitz\filter-dct.c" "..\..\source\fitz\filter-fax.c" "..\..\source\fitz\filter-flate.c" "..\..\source\fitz\filter-jbig2.c" "..\..\source\fitz\filter-leech.c" "..\..\source\fitz\filter-lzw.c" "..\..\source\fitz\filter-predict.c" ..\..\source\fitz\font.c ..\..\source\fitz\ftoa.c ..\..\source\fitz\function.c ..\..\source\fitz\geometry.c ..\..\source\fitz\getopt.c ..\..\source\fitz\glyph.c ..\..\source\fitz\halftone.c ..\..\source\fitz\hash.c ..\..\source\fitz\image.c ..\..\source\fitz\jmemcust.c ..\..\source\fitz\link.c "..\..\source\fitz\list-device.c" "..\..\source\fitz\load-jpeg.c" "..\..\source\fitz\load-jpx.c" "..\..\source\fitz\load-jxr.c" "..\..\source\fitz\load-png.c" "..\..\source\fitz\load-tiff.c" ..\..\source\fitz\memento.c ..\..\source\fitz\memory.c ..\..\source\fitz\outline.c "..\..\source\fitz\output-pcl.c" "..\..\source\fitz\output-pwg.c" ..\..\source\fitz\output.c ..\..\source\fitz\path.c ..\..\source\fitz\pixmap.c ..\..\source\fitz\printf.c ..\..\source\fitz\shade.c "..\..\source\fitz\stext-device.c" "..\..\source\fitz\stext-output.c" "..\..\source\fitz\stext-paragraph.c" "..\..\source\fitz\stext-search.c" ..\..\source\fitz\store.c "..\..\source\fitz\stream-open.c" "..\..\source\fitz\stream-prog.c" "..\..\source\fitz\stream-read.c" ..\..\source\fitz\string.c ..\..\source\fitz\strtod.c "..\..\source\fitz\svg-device.c" "..\..\source\fitz\test-device.c" ..\..\source\fitz\text.c ..\..\source\fitz\time.c "..\..\source\fitz\trace-device.c" ..\..\source\fitz\transition.c ..\..\source\fitz\tree.c ..\..\source\fitz\ucdn.c ..\..\source\fitz\xml.c ..\..\source\img\muimage.c "..\..\source\pdf\pdf-annot-edit.c" "..\..\source\pdf\pdf-annot.c" "..\..\source\pdf\pdf-appearance.c" "..\..\source\pdf\pdf-clean.c" "..\..\source\pdf\pdf-cmap-load.c" "..\..\source\pdf\pdf-cmap-parse.c" "..\..\source\pdf\pdf-cmap-table.c" "..\..\source\pdf\pdf-cmap.c" "..\..\source\pdf\pdf-colorspace.c" "..\..\source\pdf\pdf-crypt.c" "..\..\source\pdf\pdf-device.c" "..\..\source\pdf\pdf-encoding.c" "..\..\source\pdf\pdf-event.c" "..\..\source\pdf\pdf-field.c" "..\..\source\pdf\pdf-font.c" "..\..\source\pdf\pdf-fontfile.c" "..\..\source\pdf\pdf-form.c" "..\..\source\pdf\pdf-function.c" "..\..\source\pdf\pdf-image.c" "..\..\source\pdf\pdf-interpret.c" "..\..\source\pdf\pdf-lex.c" "..\..\source\pdf\pdf-metrics.c" "..\..\source\pdf\pdf-nametree.c" "..\..\source\pdf\pdf-object.c" "..\..\source\pdf\pdf-op-buffer.c" "..\..\source\pdf\pdf-op-filter.c" "..\..\source\pdf\pdf-op-run.c" "..\..\source\pdf\pdf-outline.c" "..\..\source\pdf\pdf-page.c" "..\..\source\pdf\pdf-parse.c" "..\..\source\pdf\pdf-pattern.c" "..\..\source\pdf\pdf-pkcs7.c" "..\..\source\pdf\pdf-repair.c" "..\..\source\pdf\pdf-run.c" "..\..\source\pdf\pdf-shade.c" "..\..\source\pdf\pdf-store.c" "..\..\source\pdf\pdf-stream.c" "..\..\source\pdf\pdf-type3.c" "..\..\source\pdf\pdf-unicode.c" "..\..\source\pdf\pdf-write.c" "..\..\source\pdf\pdf-xobject.c" "..\..\source\pdf\pdf-xref-aux.c" "..\..\source\pdf\pdf-xref.c" "..\..\source\pdf\js\pdf-js.c" "..\..\source\pdf\js\pdf-jsimp-mu.c" "..\..\source\fitz\document-no-run.c" ..\..\source\tiff\mutiff.c
+         mutiff.c
+         document-no-run.c
+         pdf-jsimp-mu.c
+         pdf-js.c
+         pdf-xref.c
+         pdf-xref-aux.c
+         pdf-xobject.c
+         pdf-write.c
+         pdf-unicode.c
+     1>g:\project\mangopdf\mupdf\source\pdf\pdf-unicode.c(34): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\project\mangopdf\mupdf\source\pdf\pdf-unicode.c(42): warning C4018: “<”: 有符号/无符号不匹配
+         pdf-type3.c
+         pdf-stream.c
+         pdf-store.c
+         pdf-shade.c
+         pdf-run.c
+         pdf-repair.c
+         pdf-pkcs7.c
+         pdf-pattern.c
+         pdf-parse.c
+         pdf-page.c
+         pdf-outline.c
+         正在生成代码...
+         正在编译...
+         pdf-op-run.c
+         pdf-op-filter.c
+         pdf-op-buffer.c
+         pdf-object.c
+         pdf-nametree.c
+         pdf-metrics.c
+         pdf-lex.c
+         pdf-interpret.c
+         pdf-image.c
+         pdf-function.c
+         pdf-form.c
+         pdf-fontfile.c
+         pdf-font.c
+         pdf-field.c
+         pdf-event.c
+         pdf-encoding.c
+         pdf-device.c
+         pdf-crypt.c
+         pdf-colorspace.c
+         pdf-cmap.c
+         正在生成代码...
+         正在编译...
+         pdf-cmap-table.c
+         pdf-cmap-parse.c
+         pdf-cmap-load.c
+         pdf-clean.c
+         pdf-appearance.c
+         pdf-annot.c
+         pdf-annot-edit.c
+         muimage.c
+         xml.c
+         ucdn.c
+         tree.c
+         transition.c
+         trace-device.c
+         time.c
+         text.c
+         test-device.c
+         svg-device.c
+         strtod.c
+         string.c
+         stream-read.c
+         正在生成代码...
+         正在编译...
+         stream-prog.c
+         stream-open.c
+         store.c
+         stext-search.c
+         stext-paragraph.c
+         stext-output.c
+         stext-device.c
+         shade.c
+         printf.c
+         pixmap.c
+         path.c
+         output.c
+         output-pwg.c
+         output-pcl.c
+         outline.c
+         memory.c
+         memento.c
+     1>g:\project\mangopdf\mupdf\source\fitz\memento.c(79): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(354) : 参见“vsnprintf”的声明
+         load-tiff.c
+         load-png.c
+         load-jxr.c
+         正在生成代码...
+         正在编译...
+         load-jpx.c
+         load-jpeg.c
+         list-device.c
+         link.c
+         jmemcust.c
+         image.c
+         hash.c
+         halftone.c
+         glyph.c
+         getopt.c
+         geometry.c
+         function.c
+         ftoa.c
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(40): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(40): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(40): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(40): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(40): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(40): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(40): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(40): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(40): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(41): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\project\mangopdf\mupdf\source\fitz\ftoa.c(42): warning C4056: 浮点常量算术溢出
+         font.c
+         filter-predict.c
+         filter-lzw.c
+         filter-leech.c
+         filter-jbig2.c
+         filter-flate.c
+         filter-fax.c
+         正在生成代码...
+         正在编译...
+         filter-dct.c
+         filter-basic.c
+         error.c
+         draw-unpack.c
+         draw-scale-simple.c
+         draw-path.c
+         draw-paint.c
+         draw-mesh.c
+         draw-glyph.c
+         draw-edge.c
+         draw-device.c
+         draw-blend.c
+         draw-affine.c
+         document.c
+         document-all.c
+         device.c
+         crypt-sha2.c
+         crypt-md5.c
+         crypt-arc4.c
+         crypt-aes.c
+         正在生成代码...
+         正在编译...
+         context.c
+         compressed-buffer.c
+         colorspace.c
+         buffer.c
+         bitmap.c
+         bbox-device.c
+         xps-zip.c
+         xps-util.c
+         xps-tile.c
+         xps-resource.c
+         xps-path.c
+         xps-outline.c
+         xps-image.c
+         xps-gradient.c
+         xps-glyphs.c
+         xps-doc.c
+         xps-common.c
+         mucbz.c
+         正在生成代码...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"G:\Project\mangopdf\\obj-dbg\libmupdf.lib" /LIBPATH:"C:\Program Files\Visual Leak Detector\lib\Win32" /NOLOGO "G:\Project\mangopdf\\obj-dbg\libmupdf\mucbz.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-common.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-doc.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-glyphs.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-gradient.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-image.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-outline.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-path.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-resource.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-tile.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-util.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xps-zip.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\bbox-device.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\bitmap.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\buffer.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\colorspace.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\compressed-buffer.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\context.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\crypt-aes.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\crypt-arc4.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\crypt-md5.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\crypt-sha2.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\device.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\document-all.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\document.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-affine.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-blend.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-device.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-edge.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-glyph.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-mesh.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-paint.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-path.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-scale-simple.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\draw-unpack.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\error.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\filter-basic.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\filter-dct.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\filter-fax.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\filter-flate.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\filter-jbig2.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\filter-leech.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\filter-lzw.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\filter-predict.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\font.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\ftoa.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\function.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\geometry.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\getopt.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\glyph.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\halftone.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\hash.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\image.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\jmemcust.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\link.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\list-device.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\load-jpeg.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\load-jpx.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\load-jxr.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\load-png.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\load-tiff.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\memento.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\memory.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\outline.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\output-pcl.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\output-pwg.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\output.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\path.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pixmap.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\printf.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\shade.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\stext-device.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\stext-output.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\stext-paragraph.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\stext-search.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\store.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\stream-open.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\stream-prog.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\stream-read.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\string.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\strtod.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\svg-device.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\test-device.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\text.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\time.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\trace-device.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\transition.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\tree.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\ucdn.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\xml.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\muimage.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-annot-edit.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-annot.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-appearance.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-clean.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-cmap-load.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-cmap-parse.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-cmap-table.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-cmap.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-colorspace.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-crypt.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-device.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-encoding.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-event.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-field.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-font.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-fontfile.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-form.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-function.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-image.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-interpret.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-lex.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-metrics.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-nametree.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-object.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-op-buffer.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-op-filter.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-op-run.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-outline.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-page.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-parse.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-pattern.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-pkcs7.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-repair.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-run.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-shade.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-store.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-stream.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-type3.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-unicode.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-write.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-xobject.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-xref-aux.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-xref.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-js.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\pdf-jsimp-mu.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\document-no-run.obj"
+         "G:\Project\mangopdf\\obj-dbg\libmupdf\mutiff.obj"
+         libmupdf.vcxproj -> G:\Project\mangopdf\\obj-dbg\libmupdf.lib
+       FinalizeBuildStatus:
+         正在删除文件“G:\Project\mangopdf\\obj-dbg\libmupdf\libmupdf.unsuccessfulbuild”。
+         正在对“G:\Project\mangopdf\\obj-dbg\libmupdf\libmupdf.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Project\mangopdf\mupdf\platform\win32\libmupdf.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:49.37

@@ -101,6 +101,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mangopdf.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="PdfEngine.cpp" />
     <ClCompile Include="WindowInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +130,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseEngine.h" />
     <ClInclude Include="GeneratedFiles\ui_mangopdf.h" />
     <CustomBuild Include="Menu.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -141,6 +143,7 @@
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtWidgets" "-IC:\Program Files\Visual Leak Detector\include"</Command>
     </CustomBuild>
     <ClInclude Include="MupdfExports.h" />
+    <ClInclude Include="PdfEngine.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="WindowInfo.h" />
   </ItemGroup>
